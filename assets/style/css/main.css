@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .nav-bar {
+  position: fixed;
+  background-color: #555;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header .nav-bar__list {
+  list-style: none;
+  float: right;
+}
+
+.header .nav-bar__list__items {
+  display: inline-block;
+}
+
+.header .nav-bar__list__items a {
+  text-decoration: none;
+  color: #eee;
+  padding: 1rem;
+}
+
+.section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-one {
+  background-color: #111;
+  color: #fff;
+}
+
+.section-tow {
+  background-color: #fff;
+}
+
+.section-three {
+  background-color: #111;
+  color: #fff;
+}
+
+.section-four {
+  background-color: #fff;
+}
+
+.section-five {
+  background-color: #111;
+  color: #fff;
+}
+
+.scroll-to-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #ccc;
+  position: fixed;
+  bottom: 5rem;
+  right: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top svg {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
